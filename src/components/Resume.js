@@ -4,7 +4,7 @@ const Resume = () => {
   return (
     <main id='main'>
       <section id='resume' className='resume'>
-        <div className='container' data-aos='fade-up'>
+        <div className='container' data-aos='fade-left'>
           <div className='section-title'>
             <h2>Resume</h2>
             <p>
@@ -121,12 +121,12 @@ const Resume = () => {
       <section id='skills' className='skills'>
         <div className='container' data-aos='fade-up'>
           <div className='section-title'>
-            <h2>Technical Skills</h2>
+            <h2 class='ui block header'>Technical Skills</h2>
           </div>
           <div className='row skills-content'>
             <div className='col-lg-6'>
               <div className='progress'>
-                <span className='skill'>
+                <span className='skill' style={{ fontSize: "130%" }}>
                   Programming Languages{" "}
                   <i className='val'>
                     {" "}
@@ -136,63 +136,73 @@ const Resume = () => {
               </div>
 
               <div className='progress'>
-                <span className='skill'>
+                <span className='skill' style={{ fontSize: "130%" }}>
                   Database
                   <i className='val'>MySql , MongoDB</i>
                 </span>
               </div>
 
               <div className='progress'>
-                <span className='skill'>
+                <span
+                  className='skill '
+                  style={{ fontSize: "130%", whiteSpace: "pre-line" }}
+                >
                   Tools and IDE{" "}
-                  <i className='val'>
-                    IntelliJ,Visual Studio Code , PyCharm,Spring Boot , GDB ,
-                    Trace 32 , Jenkins
-                  </i>
+                  <i className='val'>IntelliJ,Visual Studio Code ,PyCharm</i>
                 </span>
-              </div>
-              <div className='progress'>
-                <span className='skill'>
-                  Web Technologies{" "}
-                  <i className='val'>
-                    HTML, CSS, React-Redux, Hooks, Node.js, RESTful API
-                  </i>
-                </span>
-              </div>
 
-              <div className='progress'>
-                <span className='skill'>
-                  Cloud Computing Platforms{" "}
-                  <i className='val'>
-                    Amazon Web Services , Google Cloud Platform
-                  </i>
+                <span
+                  className='skill '
+                  style={{ fontSize: "130%", whiteSpace: "pre-line" }}
+                >
+                  <i className='val'>Spring Boot , GDB , Trace 32 , Jenkins</i>
                 </span>
               </div>
+              <div className='progress'></div>
+              <div className='progress'>
+                <span className='skill' style={{ fontSize: "130%" }}>
+                  Web Technologies <i className='val'>HTML, CSS, React-Redux</i>
+                </span>
+                <span className='skill' style={{ fontSize: "130%" }}>
+                  <i className='val'>Hooks, Node.js, RESTful API</i>
+                </span>
+              </div>
+              <div className='progress'></div>
             </div>
 
             <div className='col-lg-6'>
               <div className='progress'>
-                <span className='skill'>
+                <span className='skill' style={{ fontSize: "130%" }}>
                   AI/ML Technologies <i className='val'>Scikit-Learn</i>
                 </span>
               </div>
 
               <div className='progress'>
-                <span className='skill'>
+                <span className='skill' style={{ fontSize: "130%" }}>
                   Network Protocols{" "}
                   <i className='val'>LTE Protocols , TCP/IP</i>
                 </span>
               </div>
 
               <div className='progress'>
-                <span className='skill'>
+                <span className='skill' style={{ fontSize: "130%" }}>
                   DevOps <i className='val'> Docker , kUBERNETES</i>
                 </span>
               </div>
 
               <div className='progress'>
-                <span className='skill'>
+                <span className='skill' style={{ fontSize: "130%" }}>
                   Operating System <i className='val'> Linux , Windows</i>
+                </span>
+              </div>
+
+              <div className='progress'>
+                <span className='skill' style={{ fontSize: "130%" }}>
+                  Cloud Computing Platforms{" "}
+                  <i className='val'>Amazon Web Services ,</i>
+                </span>
+                <span className='skill' style={{ fontSize: "130%" }}>
+                  <i className='val'>Google Cloud Platform</i>
                 </span>
               </div>
             </div>

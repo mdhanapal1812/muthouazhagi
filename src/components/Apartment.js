@@ -1,19 +1,19 @@
 import React from "react";
-import Modal from "./Modal";
-import history from "./History";
+/* import Modal from "./Modal";
+ import history from "./History"; */
 import { Link } from "react-router-dom";
 
 class Apartment extends React.Component {
-  renderAction() {
+  /*  renderAction() {
     return (
-      /* React.Fragment will allow us use multiple elements to wrap jsx without a div. */
+    
       <React.Fragment>
         <Link to='/portfolio' className='ui button'>
           close
         </Link>
       </React.Fragment>
     );
-  }
+  } */
   renderContent() {
     return (
       <main id='main'>
@@ -21,22 +21,41 @@ class Apartment extends React.Component {
           <div className='container'>
             <div className='row'>
               <div className='col-lg-8'>
-                <div className='slideshow'>
+                <div
+                  className='slideshow'
+                  data-aos='fade-up'
+                  style={{
+                    justifyContent: "center",
+                    display: "flex",
+                    position: "relative",
+                    zIndex: 1,
+                    ease: "0s",
+                    width: "500px",
+                    marginLeft: "300px",
+                  }}
+                >
                   <img
                     src='./../assets/img/aparment.jpg'
                     className='img-fluid'
                     alt=''
+                    marginLeft='400px'
                   ></img>
                 </div>
               </div>
 
-              <div className='col-lg-4 portfolio-info'>
+              <div
+                className='ui segment'
+                style={{
+                  display: "block",
+                  marginLeft: "1px",
+                  fontFamily: "Poppins",
+                }}
+              >
                 <h3>Project information</h3>
-
                 <ul>
                   <li>
-                    <strong>Programming Language</strong>: JavaServer Pages, XML
-                    , HTML , CSS ,MySQL
+                    Programming Language: JavaServer Pages, XML , HTML , CSS
+                    ,MySQL
                   </li>
                 </ul>
 
@@ -60,7 +79,7 @@ class Apartment extends React.Component {
 
   render() {
     return (
-      <Modal
+      /* <Modal
         title={
           <h3 className='ui block header'>Aparment Management Software </h3>
         }
@@ -68,7 +87,42 @@ class Apartment extends React.Component {
         actions={this.renderAction()}
         onDismiss={() => history.push("/portfolio")}
         centered={true}
-      ></Modal>
+      ></Modal> */
+      <main id='main'>
+        <div className='container' data-aos='fade-right'>
+          <div
+            style={{
+              border: "5px solid black",
+              backgroundColor: "#D3D3D3",
+              backgroundSize: "100%",
+              position: "absolute",
+              top: "500",
+              marginTop: "70px",
+            }}
+          >
+            <h3
+              className='ui block header'
+              style={{ backgroundColor: "#38c9b4" }}
+            >
+              Aparment Management Software
+              <Link
+                to='/portfolio'
+                className='ui button'
+                style={{
+                  float: "right",
+                  marginTop: "-5px ",
+                  top: "50%",
+                  left: "50%",
+                  Backgroundcolor: "red",
+                }}
+              >
+                <i class='close icon'></i>
+              </Link>
+            </h3>
+            {this.renderContent()}
+          </div>
+        </div>
+      </main>
     );
   }
 }

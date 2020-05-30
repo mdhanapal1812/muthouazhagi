@@ -20,7 +20,7 @@ const Portfolio = () => {
             </p>
           </div>
 
-          <div className='row portfolio-container'>
+          <div className='row portfolio-container' data-aos='fade-down'>
             <div className='col-lg-4 col-md-6 portfolio-item filter-app'>
               <div className='portfolio-wrap'>
                 <img
@@ -45,7 +45,10 @@ const Portfolio = () => {
               </div>
             </div>
 
-            <div className='col-lg-4 col-md-6 portfolio-item filter-web'>
+            <div
+              className='col-lg-4 col-md-6 portfolio-item filter-web'
+              data-aos='fade-down'
+            >
               <div className='portfolio-wrap'>
                 <img
                   src='assets/img/project2.JPG'
@@ -76,7 +79,10 @@ const Portfolio = () => {
               </div>
             </div>
 
-            <div className='col-lg-4 col-md-6 portfolio-item filter-card'>
+            <div
+              className='col-lg-4 col-md-6 portfolio-item filter-card'
+              data-aos='fade-down'
+            >
               <div className='portfolio-wrap'>
                 <img
                   src='assets/img/dbms.JPG'
@@ -102,7 +108,10 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className='col-lg-4 col-md-6 portfolio-item filter-card'>
+            <div
+              className='col-lg-4 col-md-6 portfolio-item filter-card'
+              data-aos='fade-down'
+            >
               <div className='portfolio-wrap'>
                 <img
                   src='assets/img/aparment.jpg'

@@ -17,7 +17,7 @@ const Contact = () => {
           }}
         ></img>
         <div className='container' data-aos='fade-up'>
-          <div className='section-title' className='blocktext'>
+          <div className='section-title'>
             <h2>Contact</h2>
             <p>Glad to hear Your feedback !</p>
           </div>
