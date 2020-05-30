@@ -35,7 +35,7 @@ const Resume = () => {
 
               <h3 className='resume-title'>Education</h3>
               <div className='resume-item'>
-                <h4>Northeastern University , Boston , MA</h4>
+                <h4>Northeastern University, Boston, MA</h4>
                 <h5>Master Of Science in Computer Science </h5>
                 <p>
                   <em>2019 - 2021</em>
@@ -50,7 +50,7 @@ const Resume = () => {
                 </p>
               </div>
               <div className='resume-item'>
-                <h4>Pondicherry University ,Puduchery , India</h4>
+                <h4>Pondicherry University, Puduchery, India</h4>
                 <h5>Bachelor of Technology in Computer Scince </h5>
 
                 <p>
