@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bfb5f4cbedc04eaee2b04fb77bb1fbc3",
+    "revision": "02e4397ebc82fd44a8bf9bcf75c61fa1",
     "url": "/muthouazhagi/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/muthouazhagi/static/js/2.a0d61abb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e9fb53ebfe2eb25331c2",
-    "url": "/muthouazhagi/static/js/main.7eeedb39.chunk.js"
+    "revision": "0ac95074d588b394d208",
+    "url": "/muthouazhagi/static/js/main.965bde7e.chunk.js"
   },
   {
     "revision": "96e97d615aab165d4aa0",
