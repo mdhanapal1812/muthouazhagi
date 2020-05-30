@@ -10,7 +10,7 @@ const Landing = () => {
           data-aos='zoom-in'
           data-aos-delay='100'
         >
-          <h1>Hi </h1>
+          <h1 style={{ color: "black", backgroundColor: "white" }}>Hi </h1>
           <h3 style={{ color: "black", backgroundColor: "white" }}>
             This is Muthouazhagi , Nice to have you here. Please take a look
             around !

@@ -6,7 +6,7 @@ const Contact = () => {
       <section id='contact' className='contact'>
         <img
           className='ui medium circular image'
-          src='./../assets/img/contact.JPG'
+          src='assets/img/contact.JPG'
           alt='contact'
           style={{
             objectFit: "cover",

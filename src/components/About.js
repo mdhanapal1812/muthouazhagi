@@ -24,7 +24,7 @@ const About = () => {
 
           <div className='row'>
             <div className='col-lg-4'>
-              <img class='img-fluid' alt='' src='../assets/img/about.JPG'></img>
+              <img class='img-fluid' alt='' src='assets/img/about.JPG'></img>
               <h4>
                 Oh Yeah ...You could always spot me with a laptop , Programming
                 is something that I enjoy !
