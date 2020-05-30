@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/muthouazhagi/static/js/main.e490c34d.chunk.js",
-    "main.js.map": "/muthouazhagi/static/js/main.e490c34d.chunk.js.map",
+    "main.js": "/muthouazhagi/static/js/main.7eeedb39.chunk.js",
+    "main.js.map": "/muthouazhagi/static/js/main.7eeedb39.chunk.js.map",
     "runtime-main.js": "/muthouazhagi/static/js/runtime-main.38531844.js",
     "runtime-main.js.map": "/muthouazhagi/static/js/runtime-main.38531844.js.map",
     "static/js/2.a0d61abb.chunk.js": "/muthouazhagi/static/js/2.a0d61abb.chunk.js",
     "static/js/2.a0d61abb.chunk.js.map": "/muthouazhagi/static/js/2.a0d61abb.chunk.js.map",
     "index.html": "/muthouazhagi/index.html",
-    "precache-manifest.adf2023da11c09a165d12aa14548e9ff.js": "/muthouazhagi/precache-manifest.adf2023da11c09a165d12aa14548e9ff.js",
+    "precache-manifest.f7b4528a0b22347f1799dc114998d233.js": "/muthouazhagi/precache-manifest.f7b4528a0b22347f1799dc114998d233.js",
     "service-worker.js": "/muthouazhagi/service-worker.js",
     "static/js/2.a0d61abb.chunk.js.LICENSE.txt": "/muthouazhagi/static/js/2.a0d61abb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.38531844.js",
     "static/js/2.a0d61abb.chunk.js",
-    "static/js/main.e490c34d.chunk.js"
+    "static/js/main.7eeedb39.chunk.js"
   ]
 }
