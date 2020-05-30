@@ -21,7 +21,7 @@ const Portfolio = () => {
             <div className='col-lg-4 col-md-6 portfolio-item filter-app'>
               <div className='portfolio-wrap'>
                 <img
-                  src='assets/img/image_editor.jpg'
+                  src='./../assets/img/image_editor.jpg'
                   className='img-fluid'
                   alt=''
                   style={{
@@ -45,7 +45,7 @@ const Portfolio = () => {
             <div className='col-lg-4 col-md-6 portfolio-item filter-web'>
               <div className='portfolio-wrap'>
                 <img
-                  src='assets/img/project2.jpg'
+                  src='./../assets/img/project2.jpg'
                   className='img-fluid'
                   alt=''
                 ></img>
@@ -76,7 +76,7 @@ const Portfolio = () => {
             <div className='col-lg-4 col-md-6 portfolio-item filter-card'>
               <div className='portfolio-wrap'>
                 <img
-                  src='assets/img/dbms.jpg'
+                  src='./../assets/img/dbms.jpg'
                   className='img-fluid'
                   alt=''
                 ></img>
@@ -102,7 +102,7 @@ const Portfolio = () => {
             <div className='col-lg-4 col-md-6 portfolio-item filter-card'>
               <div className='portfolio-wrap'>
                 <img
-                  src='assets/img/aparment.jpg'
+                  src='./../assets/img/aparment.jpg'
                   className='img-fluid'
                   alt=''
                 ></img>
