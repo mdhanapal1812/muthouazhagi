@@ -23,7 +23,7 @@ class BostonHousing extends React.Component {
               <div className='col-lg-8'>
                 <div className='slideshow'>
                   <img
-                    src='assets/img/project2.jpg'
+                    src='assets/img/project2.JPG'
                     className='img-fluid'
                     alt=''
                   ></img>
