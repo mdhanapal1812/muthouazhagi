@@ -14,16 +14,24 @@ const Contact = () => {
             width: "50%",
             marginLeft: "auto",
             marginRight: "auto",
+            marginTop: "50px",
           }}
         ></img>
-        <div className='container' data-aos='fade-up'>
+        <div
+          className='container'
+          data-aos='fade-up'
+          style={{ marginLeft: "50px" }}
+        >
           <div className='section-title'>
             <h2>Contact</h2>
             <p>Glad to hear Your feedback !</p>
           </div>
 
-          <div className='row mt-5' style={{ alignContent: "center" }}>
-            <div className='col-lg-4'>
+          <div
+            className='row mt-5'
+            style={{ alignContent: "center", marginLeft: "100px" }}
+          >
+            <div className='col-lg-4' style={{ marginLeft: "150px" }}>
               <div className='info'>
                 <div className='address'>
                   <i className='icofont-google-map'></i>
