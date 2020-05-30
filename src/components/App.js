@@ -1,5 +1,5 @@
 import React from "react";
-import { Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Landing from "./Landing.js";
 import Header from "./Header";
 import Contact from "./Contact";
@@ -15,7 +15,7 @@ import Apartment from "./Apartment";
 const App = () => {
   return (
     <div className='ui container'>
-      <Router history={history} r>
+      <HashRouter history={history} r>
         <Header />
         <Switch>
           <Route path='/' exact component={Landing} />
@@ -29,7 +29,7 @@ const App = () => {
           <Route path='/resume' exact component={Resume} />
           <Route path='/about' exact component={About} />
         </Switch>
-      </Router>
+      </HashRouter>
     </div>
   );
 };
