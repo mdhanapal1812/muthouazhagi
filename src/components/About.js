@@ -23,7 +23,7 @@ const About = () => {
 
           <div className='row'>
             <div className='col-lg-4'>
-              <meta property='og:image' content='assets/img/about.JPG' />
+              <meta property='og:image' content='assets/img/linkedin.JPG' />
               <img class='img-fluid' alt='' src='assets/img/about.JPG'></img>
               <h4>
                 Oh Yeah ...You could always spot me with a laptop , Programming
