@@ -45,7 +45,7 @@ const Portfolio = () => {
             <div className='col-lg-4 col-md-6 portfolio-item filter-web'>
               <div className='portfolio-wrap'>
                 <img
-                  src='assets/img/project2.jpg'
+                  src='assets/img/project2.JPG'
                   className='img-fluid'
                   alt=''
                 ></img>
@@ -76,7 +76,7 @@ const Portfolio = () => {
             <div className='col-lg-4 col-md-6 portfolio-item filter-card'>
               <div className='portfolio-wrap'>
                 <img
-                  src='assets/img/dbms.jpg'
+                  src='assets/img/dbms.JPG'
                   className='img-fluid'
                   alt=''
                 ></img>
