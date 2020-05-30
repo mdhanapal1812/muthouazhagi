@@ -13,7 +13,10 @@ const Portfolio = () => {
               on.
             </p>
             <p>
-              <h3>Please click on the image for details of project.</h3>
+              <h3>
+                Please follow the link on the image to find the demo / details
+                of the project.
+              </h3>
             </p>
           </div>
 

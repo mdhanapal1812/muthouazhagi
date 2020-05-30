@@ -9,16 +9,15 @@ const About = () => {
           <div className='section-title'>
             <h2>Hi , Get to know me !</h2>
             <p>
-              I have changed again Hello ! I would describe myself as a
-              dedicated , determined and self-motivated women who has a serious
-              passion in softarFe development. I have a work experience of 3
-              years as a Software Developer in LTE domain. My first professional
-              experience gave me the opportunity to work on a wide variety of
-              interesting projects on a daily basis. The work I provide is of
-              highest quality which earned me "Excellent Performer of the Year"
-              consecutively during my tenure at work.Apart from job , I have
-              always been keen on exploring and learning trending technologies
-              in the market.
+              Hello ! I would describe myself as a dedicated , determined and
+              self-motivated women who has a serious passion in softarFe
+              development. I have a work experience of 3 years as a Software
+              Developer in LTE domain. My first professional experience gave me
+              the opportunity to work on a wide variety of interesting projects
+              on a daily basis. The work I provide is of highest quality which
+              earned me "Excellent Performer of the Year" consecutively during
+              my tenure at work.Apart from job , I have always been keen on
+              exploring and learning trending technologies in the market.
             </p>
           </div>
 
@@ -59,8 +58,7 @@ const About = () => {
                   <ul>
                     <li>
                       <i className='icofont-rounded-right'></i>{" "}
-                      <strong>Favorite Programming Language : </strong>{" "}
-                      <Link to='/resume'> JAVA</Link>
+                      <strong>Favorite Programming Language : </strong> JAVA
                     </li>
                     <li>
                       <i className='icofont-rounded-right'></i>{" "}
@@ -85,9 +83,13 @@ const About = () => {
               <p>
                 In my spare time when I am not into any projects or assignments
                 , I like to do programming challenges{" "}
-                <a href='https://github.com/mdhanapal1812/Leetcode-Programming-Challenges'>
+                <a
+                  href='https://github.com/mdhanapal1812/Leetcode-Programming-Challenges'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   here
-                </a>
+                </a>{" "}
                 are some of the LeetCode coding challenges that I have solved.
               </p>
             </div>

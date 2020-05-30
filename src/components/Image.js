@@ -52,7 +52,7 @@ class Image extends React.Component {
                 <p>
                   Implemented a user-friendly image processing application that
                   allows the users to edit , filter images and generate various
-                  image patterns. Please vist the demo link to view the project
+                  image patterns.
                 </p>
               </div>
             </div>

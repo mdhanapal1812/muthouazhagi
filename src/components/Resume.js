@@ -109,7 +109,7 @@ const Resume = () => {
               <div className='resume-item'>
                 <h4>Academic Projects</h4>
                 <h5>
-                  Please visit <Link to='/projects'> Projects Section </Link>{" "}
+                  Please visit <Link to='/portfolio'> Projects Section </Link>{" "}
                   for detailed description
                 </h5>
               </div>

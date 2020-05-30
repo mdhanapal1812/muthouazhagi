@@ -42,10 +42,7 @@ class CookBook extends React.Component {
                     <strong>Programming Language</strong>: React.js , Node.js ,
                     MongoDB , Mongoose
                   </li>
-                  <li>
-                    <strong> GitHub Link </strong>:
-                    <a href='https://github.com/mdhanapal1812/'>Link</a>
-                  </li>
+
                   <li>
                     <strong>IDE Used</strong>: IntelliJ
                   </li>
