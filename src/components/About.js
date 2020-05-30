@@ -9,13 +9,13 @@ const About = () => {
           <div className='section-title'>
             <h2>Hi , Get to know me !</h2>
             <p>
-              I have changed Hello ! I would describe myself as a dedicated ,
-              determined and self-motivated women who has a serious passion in
-              softarFe development. I have a work experience of 3 years as a
-              Software Developer in LTE domain. My first professional experience
-              gave me the opportunity to work on a wide variety of interesting
-              projects on a daily basis. The work I provide is of highest
-              quality which earned me "Excellent Performer of the Year"
+              I have changed again Hello ! I would describe myself as a
+              dedicated , determined and self-motivated women who has a serious
+              passion in softarFe development. I have a work experience of 3
+              years as a Software Developer in LTE domain. My first professional
+              experience gave me the opportunity to work on a wide variety of
+              interesting projects on a daily basis. The work I provide is of
+              highest quality which earned me "Excellent Performer of the Year"
               consecutively during my tenure at work.Apart from job , I have
               always been keen on exploring and learning trending technologies
               in the market.
@@ -24,7 +24,7 @@ const About = () => {
 
           <div className='row'>
             <div className='col-lg-4'>
-              <img class='img-fluid' alt='' src='./assets/img/about.JPG'></img>
+              <img class='img-fluid' alt='' src='../assets/img/about.JPG'></img>
               <h4>
                 Oh Yeah ...You could always spot me with a laptop , Programming
                 is something that I enjoy !
