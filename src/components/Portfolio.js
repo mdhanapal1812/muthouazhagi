@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <main id='main'>
       <section id='portfolio' className='portfolio'>
-        <div className='container' data-aos='fade-up'>
+        <div className='container'>
           <div className='section-title'>
             <h2>Portfolio</h2>
             <p>
@@ -16,24 +16,8 @@ const Portfolio = () => {
               <h3>Please click on the image for details of project.</h3>
             </p>
           </div>
-          <div className='row' data-aos='fade-up' data-aos-delay='100'>
-            <div className='col-lg-12 d-flex justify-content-center'>
-              <ul id='portfolio-flters'>
-                <li data-filter='*' className='filter-active'>
-                  All
-                </li>
-                <li data-filter='.filter-app'> JAVA</li>
-                <li data-filter='.filter-card'>Web-Technology</li>
-                <li data-filter='.filter-web'>Data Science</li>
-              </ul>
-            </div>
-          </div>
 
-          <div
-            className='row portfolio-container'
-            data-aos='fade-up'
-            data-aos-delay='200'
-          >
+          <div className='row portfolio-container'>
             <div className='col-lg-4 col-md-6 portfolio-item filter-app'>
               <div className='portfolio-wrap'>
                 <img
@@ -43,14 +27,14 @@ const Portfolio = () => {
                   style={{
                     objectFit: "cover",
                     width: "300%",
-                    height: "900%",
+                    height: "800%",
                   }}
                 ></img>
                 <div className='portfolio-info'>
                   <h4>Fun with Images</h4>
                   <p> JAVA , JAVA SWING , AWT , MVC Pattern</p>
                   <div className='portfolio-links'>
-                    <Link to='/image' className='venobox' data-vbtype='iframe'>
+                    <Link to='/image'>
                       <i className='bx bx-link'>Project Demo </i>
                     </Link>
                   </div>
@@ -81,11 +65,7 @@ const Portfolio = () => {
                     >
                       <i className='bx bx-plus'>GitHub Link</i>
                     </a>
-                    <Link
-                      to='/bostonhousing'
-                      className='venobox'
-                      data-vbtype='iframe'
-                    >
+                    <Link to='/bostonhousing'>
                       <i className='bx bx-link'>Project Details</i>
                     </Link>
                   </div>
@@ -112,11 +92,7 @@ const Portfolio = () => {
                     >
                       <i className='bx bx-plus'>GitHub Link</i>
                     </a>
-                    <Link
-                      to='/cookbook'
-                      className='venobox'
-                      data-vbtype='iframe'
-                    >
+                    <Link to='/cookbook'>
                       <i className='bx bx-link'>Project Demo</i>
                     </Link>
                   </div>
@@ -137,11 +113,7 @@ const Portfolio = () => {
                     server
                   </p>
                   <div className='portfolio-links'>
-                    <Link
-                      to='/apartment'
-                      className='venobox'
-                      data-vbtype='iframe'
-                    >
+                    <Link to='/apartment'>
                       <i className='bx bx-link'> Project Details</i>
                     </Link>
                   </div>

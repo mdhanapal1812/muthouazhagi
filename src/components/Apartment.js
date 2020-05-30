@@ -1,8 +1,20 @@
 import React from "react";
 import Modal from "./Modal";
+import history from "./History";
+import { Link } from "react-router-dom";
 
 class Apartment extends React.Component {
   renderAction() {
+    return (
+      /* React.Fragment will allow us use multiple elements to wrap jsx without a div. */
+      <React.Fragment>
+        <Link to='/portfolio' className='ui button'>
+          close
+        </Link>
+      </React.Fragment>
+    );
+  }
+  renderContent() {
     return (
       <main id='main'>
         <section id='portfolio-details' className='portfolio-details'>
@@ -49,8 +61,13 @@ class Apartment extends React.Component {
   render() {
     return (
       <Modal
-        title='Apartment Management Software'
-        content={this.renderAction()}
+        title={
+          <h3 className='ui block header'>Aparment Management Software </h3>
+        }
+        content={this.renderContent()}
+        actions={this.renderAction()}
+        onDismiss={() => history.push("/portfolio")}
+        centered={true}
       ></Modal>
     );
   }

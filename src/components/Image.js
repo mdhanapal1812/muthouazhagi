@@ -1,8 +1,20 @@
 import React from "react";
 import Modal from "./Modal";
+import history from "./History";
+import { Link } from "react-router-dom";
 
 class Image extends React.Component {
   renderAction() {
+    return (
+      /* React.Fragment will allow us use multiple elements to wrap jsx without a div. */
+      <React.Fragment>
+        <Link to='/portfolio' className='ui button'>
+          close
+        </Link>
+      </React.Fragment>
+    );
+  }
+  renderContent() {
     return (
       <main id='main'>
         <section id='portfolio-details' className='portfolio-details'>
@@ -11,8 +23,8 @@ class Image extends React.Component {
               <div className='col-lg-8'>
                 <div className='slideshow'>
                   <iframe
-                    width='360'
-                    height='315'
+                    width='700'
+                    height='400'
                     title='image'
                     src='https://www.youtube.com/embed/d-R5Jf8ZwpM'
                     frameborder='0'
@@ -22,7 +34,7 @@ class Image extends React.Component {
                 </div>
               </div>
 
-              <div className='col-lg-4 portfolio-info'>
+              <div className='ui segment'>
                 <h3>Project information</h3>
 
                 <ul>
@@ -53,8 +65,13 @@ class Image extends React.Component {
   render() {
     return (
       <Modal
-        title='Image Processing Application'
-        content={this.renderAction()}
+        title={
+          <h3 className='ui block header'>Image Processing Application</h3>
+        }
+        content={this.renderContent()}
+        actions={this.renderAction()}
+        onDismiss={() => history.push("/portfolio")}
+        centered={true}
       ></Modal>
     );
   }

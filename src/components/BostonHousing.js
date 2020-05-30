@@ -1,8 +1,20 @@
 import React from "react";
 import Modal from "./Modal";
+import { Link } from "react-router-dom";
+import history from "./History";
 
 class BostonHousing extends React.Component {
   renderAction() {
+    return (
+      /* React.Fragment will allow us use multiple elements to wrap jsx without a div. */
+      <React.Fragment>
+        <Link to='/portfolio' className='ui button'>
+          close
+        </Link>
+      </React.Fragment>
+    );
+  }
+  renderContent() {
     return (
       <main id='main'>
         <section id='portfolio-details' className='portfolio-details'>
@@ -54,8 +66,15 @@ class BostonHousing extends React.Component {
   render() {
     return (
       <Modal
-        title='Boston Housing Prediction and Classification'
-        content={this.renderAction()}
+        title={
+          <h3 className='ui block header'>
+            Boston Housing Price Prediction and Safety Classification{" "}
+          </h3>
+        }
+        content={this.renderContent()}
+        actions={this.renderAction()}
+        onDismiss={() => history.push("/portfolio")}
+        centered={true}
       ></Modal>
     );
   }

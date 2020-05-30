@@ -1,8 +1,20 @@
 import React from "react";
 import Modal from "./Modal";
+import history from "./History";
+import { Link } from "react-router-dom";
 
 class CookBook extends React.Component {
   renderAction() {
+    return (
+      /* React.Fragment will allow us use multiple elements to wrap jsx without a div. */
+      <React.Fragment>
+        <Link to='/portfolio' className='ui button'>
+          close
+        </Link>
+      </React.Fragment>
+    );
+  }
+  renderContent() {
     return (
       <main id='main'>
         <section id='portfolio-details' className='portfolio-details'>
@@ -11,8 +23,8 @@ class CookBook extends React.Component {
               <div className='col-lg-8'>
                 <div className='slideshow'>
                   <iframe
-                    width='360'
-                    height='315'
+                    width='700'
+                    height='400'
                     src='https://www.youtube.com/embed/T4uAakD1mvU'
                     frameborder='0'
                     title='cookbook'
@@ -22,7 +34,7 @@ class CookBook extends React.Component {
                 </div>
               </div>
 
-              <div className='col-lg-4 portfolio-info'>
+              <div className='ui segment'>
                 <h3>Project information</h3>
 
                 <ul>
@@ -57,7 +69,15 @@ class CookBook extends React.Component {
   }
 
   render() {
-    return <Modal title='CookBook' content={this.renderAction()}></Modal>;
+    return (
+      <Modal
+        title={<h3 className='ui block header'>Interactive CookBook </h3>}
+        content={this.renderContent()}
+        actions={this.renderAction()}
+        onDismiss={() => history.push("/portfolio")}
+        centered={true}
+      ></Modal>
+    );
   }
 }
 
