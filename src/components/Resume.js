@@ -127,44 +127,90 @@ const Resume = () => {
             <div className='col-lg-6'>
               <div className='progress'>
                 <span className='skill' style={{ fontSize: "130%" }}>
-                  Programming Languages{" "}
-                  <i className='val'>
-                    {" "}
-                    C, C++ , JAVA , Python , Perl , JavaScript
+                  Programming Languages
+                  <i
+                    className='val'
+                    style={{
+                      color: "#34b7a7",
+                      background: "#effbf9",
+                      padding: "5px 15px",
+                    }}
+                  >
+                    C, C++ , JAVA , Python , Perl , JavaScript{" "}
                   </i>
                 </span>
               </div>
 
               <div className='progress'>
                 <span className='skill' style={{ fontSize: "130%" }}>
-                  Database
-                  <i className='val'>MySql , MongoDB</i>
+                  <div className='progress-h5'> Database </div>
+                  <i
+                    className='val'
+                    style={{
+                      color: "#34b7a7",
+                      background: "#effbf9",
+                      padding: "5px 15px",
+                    }}
+                  >
+                    MySql , MongoDB
+                  </i>
                 </span>
               </div>
 
               <div className='progress'>
-                <span
-                  className='skill '
-                  style={{ fontSize: "130%", whiteSpace: "pre-line" }}
-                >
-                  Tools and IDE{" "}
-                  <i className='val'>IntelliJ,Visual Studio Code ,PyCharm</i>
+                <span className='skill ' style={{ fontSize: "130%" }}>
+                  <div className='progress-h5'> Tools and IDE </div>
+                  <i
+                    className='val'
+                    style={{
+                      color: "#34b7a7",
+                      background: "#effbf9",
+                      padding: "5px 15px",
+                    }}
+                  >
+                    IntelliJ,Visual Studio Code ,PyCharm
+                  </i>
                 </span>
 
-                <span
-                  className='skill '
-                  style={{ fontSize: "130%", whiteSpace: "pre-line" }}
-                >
-                  <i className='val'>Spring Boot , GDB , Trace 32 , Jenkins</i>
+                <span className='skill ' style={{ fontSize: "130%" }}>
+                  <i
+                    className='val'
+                    style={{
+                      color: "#34b7a7",
+                      background: "#effbf9",
+                      padding: "5px 15px",
+                    }}
+                  >
+                    Spring Boot , GDB , Trace 32 , Jenkins
+                  </i>
                 </span>
               </div>
               <div className='progress'></div>
               <div className='progress'>
                 <span className='skill' style={{ fontSize: "130%" }}>
-                  Web Technologies <i className='val'>HTML, CSS, React-Redux</i>
+                  Web Technologies{" "}
+                  <i
+                    className='val'
+                    style={{
+                      color: "#34b7a7",
+                      background: "#effbf9",
+                      padding: "5px 15px",
+                    }}
+                  >
+                    HTML, CSS, React-Redux
+                  </i>
                 </span>
                 <span className='skill' style={{ fontSize: "130%" }}>
-                  <i className='val'>Hooks, Node.js, RESTful API</i>
+                  <i
+                    className='val'
+                    style={{
+                      color: "#34b7a7",
+                      background: "#effbf9",
+                      padding: "5px 15px",
+                    }}
+                  >
+                    Hooks, Node.js, RESTful API
+                  </i>
                 </span>
               </div>
               <div className='progress'></div>
@@ -173,36 +219,95 @@ const Resume = () => {
             <div className='col-lg-6'>
               <div className='progress'>
                 <span className='skill' style={{ fontSize: "130%" }}>
-                  AI/ML Technologies <i className='val'>Scikit-Learn</i>
+                  AI/ML Technologies{" "}
+                  <i
+                    className='val'
+                    style={{
+                      color: "#34b7a7",
+                      background: "#effbf9",
+                      padding: "5px 15px",
+                    }}
+                  >
+                    Scikit-Learn
+                  </i>
                 </span>
               </div>
 
               <div className='progress'>
                 <span className='skill' style={{ fontSize: "130%" }}>
                   Network Protocols{" "}
-                  <i className='val'>LTE Protocols , TCP/IP</i>
+                  <i
+                    className='val'
+                    style={{
+                      color: "#34b7a7",
+                      background: "#effbf9",
+                      padding: "5px 15px",
+                    }}
+                  >
+                    LTE Protocols , TCP/IP
+                  </i>
                 </span>
               </div>
 
               <div className='progress'>
                 <span className='skill' style={{ fontSize: "130%" }}>
-                  DevOps <i className='val'> Docker , kUBERNETES</i>
+                  DevOps{" "}
+                  <i
+                    className='val'
+                    style={{
+                      color: "#34b7a7",
+                      background: "#effbf9",
+                      padding: "5px 15px",
+                    }}
+                  >
+                    {" "}
+                    Docker , kUBERNETES
+                  </i>
                 </span>
               </div>
 
               <div className='progress'>
                 <span className='skill' style={{ fontSize: "130%" }}>
-                  Operating System <i className='val'> Linux , Windows</i>
+                  Operating System{" "}
+                  <i
+                    className='val'
+                    style={{
+                      color: "#34b7a7",
+                      background: "#effbf9",
+                      padding: "5px 15px",
+                    }}
+                  >
+                    {" "}
+                    Linux , Windows
+                  </i>
                 </span>
               </div>
 
               <div className='progress'>
                 <span className='skill' style={{ fontSize: "130%" }}>
                   Cloud Computing Platforms{" "}
-                  <i className='val'>Amazon Web Services ,</i>
+                  <i
+                    className='val'
+                    style={{
+                      color: "#34b7a7",
+                      background: "#effbf9",
+                      padding: "5px 15px",
+                    }}
+                  >
+                    Amazon Web Services ,
+                  </i>
                 </span>
                 <span className='skill' style={{ fontSize: "130%" }}>
-                  <i className='val'>Google Cloud Platform</i>
+                  <i
+                    className='val'
+                    style={{
+                      color: "#34b7a7",
+                      background: "#effbf9",
+                      padding: "5px 15px",
+                    }}
+                  >
+                    Google Cloud Platform
+                  </i>
                 </span>
               </div>
             </div>
