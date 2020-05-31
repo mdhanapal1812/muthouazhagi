@@ -1333,12 +1333,3 @@ section {
   right: 10px;
   bottom: 10px;
 }
-
-.div-with-bg {
-  background: url("../img/r3.JPG") no-repeat center center;
-  opacity: 0.8;
-  margin-top: 100px;
-  position: absolute;
-
-  z-index: -1;
-}
