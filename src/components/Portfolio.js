@@ -44,7 +44,7 @@ const Portfolio = () => {
                       marginBottom: "13px",
                     }}
                   >
-                    Fun with Images
+                    Image Processing Application
                   </h4>
                   <p
                     style={{
