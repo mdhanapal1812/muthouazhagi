@@ -59,7 +59,7 @@ class Image extends React.Component {
                 className='ui segment'
                 style={{
                   display: "block",
-                  marginLeft: "75px",
+                  marginLeft: "30px",
                   fontFamily: "Poppins",
                 }}
               >

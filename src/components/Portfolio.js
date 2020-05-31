@@ -37,8 +37,11 @@ const Portfolio = () => {
                   <h4
                     style={{
                       backgroundColor: "black",
+                      opacity: "0.6",
                       textAlign: "center",
                       fontSize: "medium",
+                      marginLeft: "7px",
+                      marginBottom: "13px",
                     }}
                   >
                     Fun with Images
@@ -48,6 +51,8 @@ const Portfolio = () => {
                       backgroundColor: "grey",
                       opacity: "0.9",
                       fontSize: "medium",
+                      marginLeft: "7px",
+                      marginBottom: "12px",
                     }}
                   >
                     JAVA , JAVA SWING , AWT , MVC Pattern
@@ -58,8 +63,11 @@ const Portfolio = () => {
                         className='bx bx-link'
                         style={{
                           backgroundColor: "black",
+                          opacity: "0.6",
                           fontSize: "21px",
-                          opacity: "1",
+
+                          marginLeft: "7px",
+                          marginBottom: "10px",
                         }}
                       >
                         Project Demo
@@ -89,6 +97,7 @@ const Portfolio = () => {
                       backgroundColor: "black",
                       textAlign: "center",
                       fontSize: "medium",
+                      opacity: "0.6",
                     }}
                   >
                     Boston Housing Prediction and Classification
@@ -116,6 +125,7 @@ const Portfolio = () => {
                           backgroundColor: "black",
                           textAlign: "center",
                           fontSize: "19px",
+                          opacity: "0.6",
                         }}
                       >
                         GitHub Link
@@ -128,6 +138,7 @@ const Portfolio = () => {
                           backgroundColor: "black",
                           textAlign: "center",
                           fontSize: "19px",
+                          opacity: "0.6",
                         }}
                       >
                         Project Details
@@ -154,6 +165,7 @@ const Portfolio = () => {
                       backgroundColor: "black",
                       textAlign: "center",
                       fontSize: "medium",
+                      opacity: "0.7",
                     }}
                   >
                     Interactive Cookbook Website
@@ -161,9 +173,10 @@ const Portfolio = () => {
                   <p
                     style={{
                       backgroundColor: "grey",
-                      opacity: "0.9",
+
                       textAlign: "center",
                       fontSize: "medium",
+                      opacity: "0.8",
                     }}
                   >
                     React.js , Node.js , MongoDB , Mongoose
@@ -181,6 +194,7 @@ const Portfolio = () => {
                           backgroundColor: "black",
                           textAlign: "center",
                           fontSize: "19px",
+                          opacity: "0.6",
                         }}
                       >
                         GitHub Link
@@ -192,7 +206,7 @@ const Portfolio = () => {
                         style={{
                           backgroundColor: "black",
                           textAlign: "center",
-
+                          opacity: "0.6",
                           fontSize: "19px",
                         }}
                       >
@@ -219,6 +233,7 @@ const Portfolio = () => {
                       backgroundColor: "black",
                       textAlign: "center",
                       fontSize: "medium",
+                      opacity: "0.6",
                     }}
                   >
                     Apartment Management Software
@@ -242,6 +257,7 @@ const Portfolio = () => {
                           backgroundColor: "black",
                           textAlign: "center",
                           fontSize: "19px",
+                          opacity: "0.6",
                         }}
                       >
                         Project Details
