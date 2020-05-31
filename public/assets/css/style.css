@@ -1004,7 +1004,23 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
-  opacity: 0;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.portfolio .portfolio-wrap .portfolio-header {
+  opacity: 1;
   position: absolute;
   top: 0;
   left: 0;
