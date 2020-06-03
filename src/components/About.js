@@ -62,7 +62,7 @@ const About = () => {
                     </li>
                     <li>
                       <i className='icofont-rounded-right'></i>{" "}
-                      <strong>Interested Domain:</strong> Data Science
+                      <strong>Interested Domain:</strong> Full Stack Developer
                     </li>
                     <li>
                       <i className='icofont-rounded-right'></i>{" "}
