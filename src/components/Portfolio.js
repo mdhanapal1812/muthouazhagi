@@ -20,7 +20,11 @@ const Portfolio = () => {
             </p>
           </div>
 
-          <div className='row portfolio-container' data-aos='fade-down'>
+          <div
+            className='row portfolio-container'
+            data-aos='fade-down'
+            data-aos-delay='200'
+          >
             <div className='col-lg-4 col-md-6 portfolio-item filter-app'>
               <div className='portfolio-wrap'>
                 <img
@@ -150,7 +154,7 @@ const Portfolio = () => {
             </div>
 
             <div
-              className='col-lg-4 col-md-6 portfolio-item filter-card'
+              className='col-lg-4 col-md-6 portfolio-item filter-web"'
               data-aos='fade-down'
             >
               <div className='portfolio-wrap'>
@@ -217,6 +221,100 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
+
+            <div className='col-lg-4 col-md-6 portfolio-item filter-app'>
+              <div className='portfolio-wrap'>
+                <img
+                  src='./../assets/img/feedback.JPG'
+                  className='img-fluid'
+                  alt=''
+                  style={{
+                    objectFit: "contain",
+                    width: "500%",
+                    height: "1000%",
+                  }}
+                ></img>
+                <div className='portfolio-info'>
+                  <h4
+                    style={{
+                      backgroundColor: "black",
+                      opacity: "0.6",
+                      textAlign: "center",
+                      fontSize: "medium",
+                      marginLeft: "7px",
+                      marginBottom: "13px",
+                    }}
+                  >
+                    Customer Feedback Store
+                  </h4>
+                  <p
+                    style={{
+                      backgroundColor: "grey",
+                      opacity: "0.9",
+                      fontSize: "medium",
+                      marginLeft: "7px",
+                      marginBottom: "12px",
+                    }}
+                  >
+                    React, React-Redux, HTML, CSS, MongoDB, Google OAuth
+                  </p>
+                  <div className='portfolio-links'>
+                    <a
+                      href='https://github.com/mdhanapal1812/feedbackstore'
+                      title='App 2'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <i
+                        className='bx bx-plus'
+                        style={{
+                          backgroundColor: "black",
+                          textAlign: "center",
+                          fontSize: "19px",
+                          opacity: "0.6",
+                        }}
+                      >
+                        GitHub Link
+                      </i>
+                    </a>
+                    <a
+                      href='https://customerfeedbackstore.herokuapp.com/'
+                      title='App 2'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <i
+                        className='bx bx-plus'
+                        style={{
+                          backgroundColor: "black",
+                          textAlign: "center",
+                          fontSize: "19px",
+                          opacity: "0.6",
+                        }}
+                      >
+                        Application Link
+                      </i>
+                    </a>
+                    <Link to='/feedbackstore'>
+                      <i
+                        className='bx bx-link'
+                        style={{
+                          backgroundColor: "black",
+                          opacity: "0.6",
+                          fontSize: "21px",
+
+                          marginLeft: "7px",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        Project Demo
+                      </i>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div
               className='col-lg-4 col-md-6 portfolio-item filter-card'
               data-aos='fade-down'
@@ -233,7 +331,7 @@ const Portfolio = () => {
                       backgroundColor: "black",
                       textAlign: "center",
                       fontSize: "medium",
-                      opacity: "0.6",
+                      opacity: "0.7",
                     }}
                   >
                     Apartment Management Software
@@ -241,23 +339,24 @@ const Portfolio = () => {
                   <p
                     style={{
                       backgroundColor: "grey",
-                      opacity: "0.9",
+
                       textAlign: "center",
                       fontSize: "medium",
+                      opacity: "0.8",
                     }}
                   >
                     JavaServer Pages, XML , HTML , CSS ,MySQL ,Apache Tomcat
                     server
                   </p>
-                  <div className='portfolio-links' style={{ opacity: "1" }}>
+                  <div className='portfolio-links'>
                     <Link to='/apartment'>
                       <i
                         className='bx bx-link'
                         style={{
                           backgroundColor: "black",
                           textAlign: "center",
-                          fontSize: "19px",
                           opacity: "0.6",
+                          fontSize: "19px",
                         }}
                       >
                         Project Details

@@ -11,6 +11,7 @@ import CookBook from "./CookBook";
 import BostonHousing from "./BostonHousing";
 import history from "./History";
 import Apartment from "./Apartment";
+import FeedbackStore from "./FeedbackStore.js";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Route path='/image' exact component={Image} />
           <Route path='/cookbook' exact component={CookBook} />
           <Route path='/bostonhousing' exact component={BostonHousing} />
+          <Route path='/feedbackstore' exact component={FeedbackStore} />
           <Route path='/apartment' exact component={Apartment} />
           <Route path='/resume' exact component={Resume} />
           <Route path='/about' exact component={About} />
