@@ -45,7 +45,7 @@ const Contact = () => {
                 <div className='email'>
                   <i className='icofont-envelope'></i>
                   <h4>Email:</h4>
-                  <p>dhanapal.m@husky.neu.edu</p>
+                  <p>dhanapal.m@northeastern.edu</p>
                 </div>
 
                 <div className='phone'>
