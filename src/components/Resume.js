@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Resume = () => {
   return (
-    <main id='main'>
+    <div>
       <section id='resume' className='resume'>
         <div className='container' data-aos='fade-left'>
           <div className='section-title'>
-            <h2>Resume</h2>
+            <h2 style={{ marginTop: "4%" }}>Resume</h2>
             <p>
               Available for Co-Op / Internship opportunities from : Sep 2020 to
               Jan 2021
@@ -314,7 +314,7 @@ const Resume = () => {
           </div>
         </div>
       </section>
-    </main>
+    </div>
   );
 };
 

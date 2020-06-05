@@ -12,28 +12,37 @@ import BostonHousing from "./BostonHousing";
 import history from "./History";
 import Apartment from "./Apartment";
 import FeedbackStore from "./FeedbackStore.js";
+import Toolbar from "./Toolbar";
 
-const App = () => {
-  return (
-    <div className='ui container'>
-      <HashRouter history={history} r>
-        <Header />
-        <Switch>
-          <Route path='/' exact component={Landing} />
-          <Route path='/contact' exact component={Contact} />
-          <Route path='/portfolio' forceRefresh exact component={Portfolio} />
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { active: false };
+  }
+  render() {
+    return (
+      <HashRouter history={history}>
+        <div id='ui container'>
+          <Header />
 
-          <Route path='/image' exact component={Image} />
-          <Route path='/cookbook' exact component={CookBook} />
-          <Route path='/bostonhousing' exact component={BostonHousing} />
-          <Route path='/feedbackstore' exact component={FeedbackStore} />
-          <Route path='/apartment' exact component={Apartment} />
-          <Route path='/resume' exact component={Resume} />
-          <Route path='/about' exact component={About} />
-        </Switch>
+          <Toolbar />
+          <Switch>
+            <Route path='/' exact component={Landing} />
+            <Route path='/contact' exact component={Contact} />
+            <Route path='/portfolio' forceRefresh exact component={Portfolio} />
+
+            <Route path='/image' exact component={Image} />
+            <Route path='/cookbook' exact component={CookBook} />
+            <Route path='/bostonhousing' exact component={BostonHousing} />
+            <Route path='/feedbackstore' exact component={FeedbackStore} />
+            <Route path='/apartment' exact component={Apartment} />
+            <Route path='/resume' exact component={Resume} />
+            <Route path='/about' exact component={About} />
+          </Switch>
+        </div>
       </HashRouter>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default App;

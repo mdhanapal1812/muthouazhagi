@@ -11,7 +11,7 @@ const Contact = () => {
           style={{
             objectFit: "cover",
             display: "block",
-            width: "50%",
+            width: "30%",
             marginLeft: "auto",
             marginRight: "auto",
             marginTop: "50px",
