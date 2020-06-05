@@ -22,7 +22,7 @@ const Contact = () => {
           data-aos='fade-up'
           style={{ marginLeft: "50px", height: "100%" }}
         >
-          <div className='section-title'>
+          <div className='section-title' style={{ marginLeft: "0.5px" }}>
             <h2>Contact</h2>
             <p>Glad to hear Your feedback !</p>
           </div>
