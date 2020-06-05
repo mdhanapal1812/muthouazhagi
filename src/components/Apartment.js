@@ -89,7 +89,11 @@ class Apartment extends React.Component {
         centered={true}
       ></Modal> */
       <main id='main'>
-        <div className='container' data-aos='fade-right'>
+        <div
+          className='container'
+          data-aos='fade-right'
+          style={{ height: "100%" }}
+        >
           <div
             style={{
               border: "5px solid black",

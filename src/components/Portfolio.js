@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Portfolio = () => {
   return (
     <section id='portfolio' className='portfolio'>
-      <div className='container'>
+      <div className='container' style={{ height: "100%" }}>
         <div className='section-title'>
           <h2 style={{ marginTop: "3%" }}>Portfolio</h2>
           <p>

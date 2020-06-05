@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div>
+    <div style={{ height: "100%" }}>
       <section id='contact' className='contact'>
         <img
           className='ui medium circular image'

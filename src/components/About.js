@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <section id='about' className='about'>
-      <div className='container' data-aos='fade-up'>
+      <div className='container' data-aos='fade-up' style={{ height: "100%" }}>
         <div className='section-title'>
           <h2 style={{ marginTop: "10%" }}>Hi , Get to know me !</h2>
           <p>

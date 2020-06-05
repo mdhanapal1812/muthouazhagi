@@ -4,7 +4,11 @@ const Resume = () => {
   return (
     <div>
       <section id='resume' className='resume'>
-        <div className='container' data-aos='fade-left'>
+        <div
+          className='container'
+          data-aos='fade-left'
+          style={{ height: "100%" }}
+        >
           <div className='section-title'>
             <h2 style={{ marginTop: "4%" }}>Resume</h2>
             <p>
