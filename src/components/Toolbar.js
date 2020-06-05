@@ -13,7 +13,7 @@ class Toolbar extends React.Component {
     // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
     return (
       <Menu
-        width='15%'
+        width='30%'
         pageWrapId={"page-wrap"}
         outerContainerId={"outer-container"}
       >
