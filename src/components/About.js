@@ -18,7 +18,7 @@ const About = () => {
             a daily basis. The work I provide is of highest quality which earned
             me "Excellent Performer of the Year" consecutively during my tenure
             at work.Apart from job , I have always been keen on exploring and
-            learning trending technologies in the market.
+            learning trending technologies in the software industry.
           </p>
         </div>
 
