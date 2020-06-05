@@ -45,7 +45,7 @@ const Resume = () => {
                   <em>2019 - 2021</em>
                 </p>
                 <p>
-                  <em>CGPA : 3.778</em>
+                  <em>CGPA : 3.778/4.0</em>
                 </p>
                 <p>
                   Relevant CourseWork : Programming Design Paradigms,
