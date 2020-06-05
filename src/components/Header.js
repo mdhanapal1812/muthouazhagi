@@ -4,8 +4,11 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header id='header' className='fixed-top'>
-      <div className='container-fluid d-flex justify-content-between align-items-center'>
-        <h1 className='logo'>
+      <div
+        className='container-fluid d-flex justify-content-between align-items-center'
+        style={{ height: "50px" }}
+      >
+        <h1 className='logo' style={{ fontSize: "20px", marginLeft: "40px" }}>
           <Link to='/'>Muthouazhagi Dhanapal</Link>
         </h1>
 
@@ -30,27 +33,24 @@ const Header = () => {
         </nav>
 
         <div className='header-social-links'>
-          <button className='ui linkedin button'>
-            <i className='linkedin icon'></i>
-            <a
-              href='https://www.linkedin.com/in/muthouazhagi-dhanapal/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              LinkedIn
-            </a>
-          </button>
+          <a
+            href='https://www.linkedin.com/in/muthouazhagi-dhanapal/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <i
+              class='fa fa-linkedin-square fa-2x'
+              style={{ color: "#0099CC" }}
+            ></i>
+          </a>
 
-          <button className='ui github button'>
-            <i className='github icon'></i>
-            <a
-              href='https://github.com/mdhanapal1812'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              GitHub
-            </a>
-          </button>
+          <a
+            href='https://github.com/mdhanapal1812'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <i className='fa fa-github-square fa-2x'></i>
+          </a>
         </div>
       </div>
     </header>

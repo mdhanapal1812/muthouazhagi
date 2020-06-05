@@ -8,28 +8,33 @@ class BostonHousing extends React.Component {
   renderContent() {
     return (
       <main id='main'>
-        <section id='portfolio-details' className='portfolio-details'>
-          <div className='container'>
+        <section
+          id='portfolio-details'
+          className='portfolio-details'
+          style={{
+            height: "100%",
+          }}
+        >
+          <div
+            className='container'
+            style={{
+              height: "100%",
+            }}
+          >
             <div className='row'>
-              <div className='col-lg-8'>
-                <div
-                  className='slideshow'
-                  data-aos='fade-up'
-                  style={{
-                    justifyContent: "center",
-                    display: "flex",
-                    position: "relative",
-                    zIndex: 1,
-                    ease: "0s",
-                    width: "500px",
-                    marginLeft: "300px",
-                  }}
-                >
+              <div
+                className='imagecontainer'
+                style={{
+                  height: "100%",
+                }}
+              >
+                <div className='imageWrapper'>
                   <img
                     src='assets/img/project2.JPG'
                     className='img-fluid'
                     alt=''
                     marginLeft='400px'
+                    height='0'
                   ></img>
                 </div>
               </div>
@@ -40,6 +45,7 @@ class BostonHousing extends React.Component {
                   display: "block",
                   marginLeft: "1px",
                   fontFamily: "Poppins",
+                  fontSize: "15px",
                 }}
               >
                 <h3>Project information</h3>
@@ -88,20 +94,34 @@ class BostonHousing extends React.Component {
         centered={true}
       ></Modal> */
       <main id='main'>
-        <div className='container' data-aos='fade-right'>
+        <div
+          className='container'
+          data-aos='fade-right'
+          style={{
+            width: "90%",
+            maxWidth: "960px",
+            position: "relative",
+            margin: "110 auto",
+            height: "100%",
+          }}
+        >
           <div
             style={{
               border: "5px solid black",
               backgroundColor: "#D3D3D3",
               backgroundSize: "100%",
-              position: "absolute",
+
               top: "500",
-              marginTop: "70px",
+              marginTop: "100px",
+              width: "90%",
+              maxWidth: "960px",
+              position: "relative",
+              margin: "110 auto",
             }}
           >
             <h3
               className='ui block header'
-              style={{ backgroundColor: "#38c9b4" }}
+              style={{ backgroundColor: "#38c9b4", fontSize: "20px" }}
             >
               Boston Housing Price Prediction and Safety Classification
               <Link

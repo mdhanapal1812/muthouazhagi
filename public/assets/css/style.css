@@ -436,6 +436,7 @@ h6 {
   background-repeat: no-repeat;
   vertical-align: middle;
 }
+
 #hero .container {
   padding-top: 70px;
   position: relative;
@@ -1091,7 +1092,6 @@ section {
 .portfolio-details .portfolio-title {
   font-size: 26px;
   font-weight: 700;
-
   margin-bottom: 20px;
 }
 
@@ -1102,7 +1102,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot {
-  display: flex;
+  display: inline-block;
   margin: 0 5px;
   width: 12px;
   height: 12px;
@@ -1337,90 +1337,46 @@ section {
   bottom: 10px;
 }
 
-/* Style the navigation menu */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
+.videoWrapper {
   position: relative;
+  overflow: hidden;
+  padding-top: 25px;
+  height: 0;
+  padding-bottom: 56.25%;
 }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
-}
-
-/* Style navigation menu links */
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-/* Style the hamburger menu */
-.topnav a.icon {
-  background: black;
-  display: block;
+.videoWrapper iframe {
   position: absolute;
-  right: 0;
   top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.videocontainer {
+  width: 100%;
+  height: auto;
 }
 
-/* Style the active link (or home/logo) */
-.active {
-  background-color: #4caf50;
-  color: white;
+.imageWrapper {
+  position: relative;
+  overflow: hidden;
+  padding-top: 25px;
+  height: auto;
+  padding-bottom: 56.25%;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* Styles */
+.imageWrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width: 321px) {
-  /* Styles */
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 320px) {
-  /* Styles */
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* Styles */
-}
-
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* Styles */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* Styles */
-}
-
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) {
-  /* Styles */
-}
-
-/* Large screens ----------- */
-@media only screen and (min-width: 1824px) {
-  /* Styles */
-}
-
-/* iPhone 4 ----------- */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-  only screen and (min-device-pixel-ratio: 1.5) {
-  /* Styles */
+.imagecontainer {
+  width: 100%;
+  height: auto;
 }

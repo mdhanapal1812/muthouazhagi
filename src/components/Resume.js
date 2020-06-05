@@ -140,11 +140,24 @@ const Resume = () => {
                       padding: "5px 15px",
                     }}
                   >
-                    C, C++ , JAVA , Python , Perl , JavaScript{" "}
+                    C, C++ , JAVA
+                  </i>
+                </span>
+
+                <span className='skill' style={{ fontSize: "130%" }}>
+                  <i
+                    className='val'
+                    style={{
+                      color: "#34b7a7",
+                      background: "#effbf9",
+                      padding: "5px 15px",
+                    }}
+                  >
+                    Python , Perl , JavaScript{" "}
                   </i>
                 </span>
               </div>
-
+              <div className='progress'></div>
               <div className='progress'>
                 <span className='skill' style={{ fontSize: "130%" }}>
                   <div className='progress-h5'> Database </div>
@@ -172,7 +185,7 @@ const Resume = () => {
                       padding: "5px 15px",
                     }}
                   >
-                    IntelliJ,Visual Studio Code ,PyCharm
+                    IntelliJ,Visual Studio Code
                   </i>
                 </span>
 
@@ -185,7 +198,20 @@ const Resume = () => {
                       padding: "5px 15px",
                     }}
                   >
-                    Spring Boot , GDB , Trace 32 , Jenkins
+                    Spring Boot , GDB
+                  </i>
+                </span>
+
+                <span className='skill ' style={{ fontSize: "130%" }}>
+                  <i
+                    className='val'
+                    style={{
+                      color: "#34b7a7",
+                      background: "#effbf9",
+                      padding: "5px 15px",
+                    }}
+                  >
+                    PyCharm, Jenkins
                   </i>
                 </span>
               </div>
@@ -298,7 +324,7 @@ const Resume = () => {
                       padding: "5px 15px",
                     }}
                   >
-                    Amazon Web Services ,
+                    AWS ,
                   </i>
                 </span>
                 <span className='skill' style={{ fontSize: "130%" }}>

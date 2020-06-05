@@ -11,24 +11,30 @@ const Contact = () => {
           style={{
             objectFit: "cover",
             display: "block",
-            width: "30%",
+            width: "auto",
+            maxWidth: "30%",
             marginLeft: "auto",
             marginRight: "auto",
             marginTop: "64px",
+
+            height: "auto",
           }}
         ></img>
-        <div
-          className='container'
-          data-aos='fade-up'
-          style={{ marginLeft: "50px", height: "100%" }}
-        >
-          <div className='section-title' style={{ marginLeft: "0.5px" }}>
-            <h2>Contact</h2>
+
+        <div className='container' data-aos='fade-up'>
+          <div
+            className='section-title'
+            style={{ marginLeft: "20px", height: "100%" }}
+          >
+            <h2 style={{ marginLeft: "1px" }}>Contact</h2>
             <p>Glad to hear Your feedback !</p>
           </div>
 
-          <div className='row mt-5' style={{ alignContent: "center" }}>
-            <div className='col-lg-4' style={{ marginLeft: "0.5px" }}>
+          <div
+            className='row mt-5'
+            style={{ alignContent: "center", height: "100%" }}
+          >
+            <div className='col-lg-4' style={{ marginLeft: "50px" }}>
               <div className='info'>
                 <div className='address'>
                   <i className='icofont-google-map'></i>
@@ -46,6 +52,20 @@ const Contact = () => {
                   <i className='icofont-phone'></i>
                   <h4>Call:</h4>
                   <p>+1 8572698359</p>
+                </div>
+
+                <div className='email'>
+                  <h4>LinkedIn</h4>
+                  <p>
+                    <a
+                      href='https://www.linkedin.com/in/muthouazhagi-dhanapal/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      {" "}
+                      <i className='fa fa-linkedin-square fa-2x'></i>
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
