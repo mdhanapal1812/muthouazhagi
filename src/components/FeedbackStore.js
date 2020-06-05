@@ -147,7 +147,7 @@ class FeedbackStore extends React.Component {
           >
             <h3
               className='ui block header'
-              style={{ backgroundColor: "#38c9b4", fontSize: "15px" }}
+              style={{ backgroundColor: "#38c9b4", fontSize: "23px" }}
             >
               Customer Feedback Store
               <Link
@@ -155,7 +155,7 @@ class FeedbackStore extends React.Component {
                 className='ui button'
                 style={{
                   float: "right",
-                  marginTop: "-10px ",
+                  marginTop: "-1px ",
                   top: "50%",
                   left: "50%",
                   Backgroundcolor: "red",

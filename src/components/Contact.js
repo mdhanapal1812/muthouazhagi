@@ -55,6 +55,7 @@ const Contact = () => {
                 </div>
 
                 <div className='email'>
+                  <i className='fa fa-linkedin-square fa-2x'></i>
                   <h4>LinkedIn</h4>
                   <p>
                     <a
@@ -62,8 +63,7 @@ const Contact = () => {
                       target='_blank'
                       rel='noopener noreferrer'
                     >
-                      {" "}
-                      <i className='fa fa-linkedin-square fa-2x'></i>
+                      Click me!
                     </a>
                   </p>
                 </div>
