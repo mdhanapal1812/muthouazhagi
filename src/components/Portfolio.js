@@ -4,8 +4,8 @@ const Portfolio = () => {
   return (
     <section id='portfolio' className='portfolio'>
       <div className='container' style={{ height: "100%" }}>
-        <div className='section-title'>
-          <h2 style={{ marginTop: "3%" }}>Portfolio</h2>
+        <div className='section-title' style={{ height: "100%" }}>
+          <h2 style={{ marginTop: "64px" }}>Portfolio</h2>
           <p>
             I love indulging in projects that makes use of top-notch
             technologies ! Here are some of the projects that I have worked on.

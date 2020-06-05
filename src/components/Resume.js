@@ -9,8 +9,8 @@ const Resume = () => {
           data-aos='fade-left'
           style={{ height: "100%" }}
         >
-          <div className='section-title'>
-            <h2 style={{ marginTop: "4%" }}>Resume</h2>
+          <div className='section-title' style={{ height: "100%" }}>
+            <h2 style={{ marginTop: "64px" }}>Resume</h2>
             <p>
               Available for Co-Op / Internship opportunities from : Sep 2020 to
               Jan 2021

@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div style={{ height: "100%" }}>
+    <div>
       <section id='contact' className='contact'>
         <img
           className='ui medium circular image'
@@ -14,24 +14,21 @@ const Contact = () => {
             width: "30%",
             marginLeft: "auto",
             marginRight: "auto",
-            marginTop: "50px",
+            marginTop: "64px",
           }}
         ></img>
         <div
           className='container'
           data-aos='fade-up'
-          style={{ marginLeft: "50px" }}
+          style={{ marginLeft: "50px", height: "100%" }}
         >
           <div className='section-title'>
             <h2>Contact</h2>
             <p>Glad to hear Your feedback !</p>
           </div>
 
-          <div
-            className='row mt-5'
-            style={{ alignContent: "center", marginLeft: "100px" }}
-          >
-            <div className='col-lg-4' style={{ marginLeft: "150px" }}>
+          <div className='row mt-5' style={{ alignContent: "center" }}>
+            <div className='col-lg-4' style={{ marginLeft: "0.5px" }}>
               <div className='info'>
                 <div className='address'>
                   <i className='icofont-google-map'></i>

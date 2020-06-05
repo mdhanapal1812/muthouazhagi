@@ -13,9 +13,10 @@ class Toolbar extends React.Component {
     // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
     return (
       <Menu
-        width='30%'
+        width='70%'
         pageWrapId={"page-wrap"}
         outerContainerId={"outer-container"}
+        style={{ justifyContent: "center" }}
       >
         <Link to='/' className='menu-item'>
           Home{" "}
