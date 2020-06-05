@@ -129,7 +129,7 @@ class BostonHousing extends React.Component {
                 className='ui button'
                 style={{
                   float: "right",
-                  marginTop: "-5px ",
+                  marginTop: "-4px ",
                   top: "50%",
                   left: "50%",
                   Backgroundcolor: "red",

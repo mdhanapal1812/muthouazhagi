@@ -6,7 +6,9 @@ const About = () => {
     <section id='about' className='about'>
       <div className='container' data-aos='fade-up'>
         <div className='section-title' style={{ height: "100%" }}>
-          <h2 style={{ marginTop: "64px" }}>Hi , Get to know me !</h2>
+          <h2 style={{ marginTop: "64px", fontSize: "20px" }}>
+            Hi , Get to know me!
+          </h2>
           <p>
             Hello ! I would describe myself as a dedicated , determined and
             self-motivated women who has a serious passion in software

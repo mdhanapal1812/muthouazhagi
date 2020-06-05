@@ -136,7 +136,7 @@ class CookBook extends React.Component {
                 className='ui button'
                 style={{
                   float: "right",
-                  marginTop: "-5px ",
+                  marginTop: "-2px ",
                   top: "50%",
                   left: "50%",
                   Backgroundcolor: "red",

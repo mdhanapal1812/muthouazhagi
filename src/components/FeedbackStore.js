@@ -155,7 +155,7 @@ class FeedbackStore extends React.Component {
                 className='ui button'
                 style={{
                   float: "right",
-                  marginTop: "-8px ",
+                  marginTop: "-10px ",
                   top: "50%",
                   left: "50%",
                   Backgroundcolor: "red",
