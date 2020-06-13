@@ -11,7 +11,7 @@ const About = () => {
           </h2>
           <p>
             Hello ! I would describe myself as a dedicated , determined and
-            self-motivated women who has a serious passion in software
+            self-motivated woman who has a serious passion in software
             development. I have a work experience of 3 years as a Software
             Developer in LTE domain. My first professional experience gave me
             the opportunity to work on a wide variety of interesting projects on
