@@ -70,6 +70,21 @@ const Resume = () => {
             </div>
             <div className='col-lg-6'>
               <h3 className='resume-title'>Professional Experience</h3>
+
+              <div className='resume-item'>
+                <h4>Software Engineer Intern</h4>
+                <h5>Pinwheel , Texas , US </h5>
+                <p>
+                  <em>June 2020 - Present</em>
+                </p>
+                <p>
+                  <em>
+                    Technology Used : React Native, React, AWS AppSync,
+                    DynamoDB, GraphQL, Cognito, AWS Lambda{" "}
+                  </em>
+                </p>
+              </div>
+
               <div className='resume-item'>
                 <h4>Software Development Engineer</h4>
                 <h5>MBIT Wireless , Chennai , India </h5>
