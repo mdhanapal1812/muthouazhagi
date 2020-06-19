@@ -73,7 +73,7 @@ const Resume = () => {
 
               <div className='resume-item'>
                 <h4>Software Engineer Intern</h4>
-                <h5>Pinwheel , Texas , US </h5>
+                <h5>Pinwheel.io, Texas, US </h5>
                 <p>
                   <em>June 2020 - Present</em>
                 </p>
