@@ -80,7 +80,7 @@ const Resume = () => {
                 <p>
                   <em>
                     Technology Used : React Native, React, AWS AppSync,
-                    DynamoDB, GraphQL, Cognito, AWS Lambda{" "}
+                    DynamoDB, GraphQL, Cognito, AWS Lambda , MQTT protocol
                   </em>
                 </p>
               </div>
