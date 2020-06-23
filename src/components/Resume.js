@@ -257,6 +257,19 @@ const Resume = () => {
                     Hooks, Node.js, RESTful API
                   </i>
                 </span>
+
+                <span className='skill' style={{ fontSize: "130%" }}>
+                  <i
+                    className='val'
+                    style={{
+                      color: "#34b7a7",
+                      background: "#effbf9",
+                      padding: "5px 15px",
+                    }}
+                  >
+                    React-Native, GraphQL
+                  </i>
+                </span>
               </div>
               <div className='progress'></div>
             </div>
@@ -306,7 +319,7 @@ const Resume = () => {
                     }}
                   >
                     {" "}
-                    Docker , kUBERNETES
+                    Docker , Kubernetes
                   </i>
                 </span>
               </div>
@@ -339,7 +352,7 @@ const Resume = () => {
                       padding: "5px 15px",
                     }}
                   >
-                    AWS ,
+                    Heroku ,
                   </i>
                 </span>
                 <span className='skill' style={{ fontSize: "130%" }}>
@@ -352,6 +365,34 @@ const Resume = () => {
                     }}
                   >
                     Google Cloud Platform
+                  </i>
+                </span>
+              </div>
+
+              <div className='progress'>
+                <span className='skill' style={{ fontSize: "130%" }}>
+                  AWS Services {" "}
+                  <i
+                    className='val'
+                    style={{
+                      color: "#34b7a7",
+                      background: "#effbf9",
+                      padding: "5px 15px",
+                    }}
+                  >
+                    DynamoDB, AWS AppSync, Cognito,
+                  </i>
+                </span>
+                <span className='skill' style={{ fontSize: "130%" }}>
+                  <i
+                    className='val'
+                    style={{
+                      color: "#34b7a7",
+                      background: "#effbf9",
+                      padding: "5px 15px",
+                    }}
+                  >
+                    Elastic Beanstalk, RDS
                   </i>
                 </span>
               </div>
