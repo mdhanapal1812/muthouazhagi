@@ -302,7 +302,7 @@ const Resume = () => {
                       padding: "5px 15px",
                     }}
                   >
-                    LTE Protocols , TCP/IP
+                    LTE Protocols , TCP/IP , MQTT
                   </i>
                 </span>
               </div>
