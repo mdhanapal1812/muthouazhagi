@@ -32,7 +32,7 @@ const Resume = () => {
                   <ul>
                     <li>Apt 3 , 1574 Tremont Street, Boston MA</li>
                     <li>(857) 269-8359</li>
-                    <li>dhanapal.m@husky.neu.edu</li>
+                    <li>dhanapal.m@northeastern.edu</li>
                   </ul>
                 </p>
               </div>

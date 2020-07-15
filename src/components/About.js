@@ -17,7 +17,9 @@ const About = () => {
             the opportunity to work on a wide variety of interesting projects on
             a daily basis. The work I provide is of highest quality which earned
             me "Excellent Performer of the Year" consecutively during my tenure
-            at work.Apart from job , I have always been keen on exploring and
+            at work. I am currently doing my internship as a Software Engineer at Pinwheel.io.
+            This place has helped me learn trending technologies along with helping me discover my ownership skills.
+            Apart from job , I have always been keen on exploring and
             learning trending technologies in the software industry.
           </p>
         </div>
@@ -44,7 +46,7 @@ const About = () => {
               </p>
               <h5>
                 I am currently seeking Co-Op / Internship opportunities for Fall
-                2020 in a creative and innovative environment . Would like to
+                2020/Spring 2021 in a creative and innovative environment . Would like to
                 hire me ? Please <Link to='/contact'> contact</Link> me !
               </h5>
             </p>
