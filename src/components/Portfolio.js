@@ -444,6 +444,140 @@ const Portfolio = () => {
             </div>
           </div>
 
+
+          <div
+            className='col-lg-4 col-md-6 portfolio-item filter-web"'
+            data-aos='fade-down'
+          >
+            <div className='portfolio-wrap'>
+              <img src='assets/img/kubernetes.jpg' className='img-fluid' alt=''></img>
+              <div className='portfolio-info'>
+                <h4
+                  style={{
+                    backgroundColor: "black",
+                    textAlign: "center",
+                    fontSize: "medium",
+                    opacity: "0.7",
+                  }}
+                >
+                  Diving into Kubernetes
+                </h4>
+                <p
+                  style={{
+                    backgroundColor: "grey",
+
+                    textAlign: "center",
+                    fontSize: "medium",
+                    opacity: "0.8",
+                  }}
+                >
+                  React , Kubernetes , Google Cloud Platform , Redis , Postgres , CI/CD Pipeline, Travis CI
+                </p>
+                <div className='portfolio-links'>
+                  <a
+                    href='https://github.com/mdhanapal1812/multi-kubernetes'
+                    title='App 2'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <i
+                      className='bx bx-plus'
+                      style={{
+                        backgroundColor: "black",
+                        textAlign: "center",
+                        fontSize: "19px",
+                        opacity: "0.6",
+                      }}
+                    >
+                      GitHub Link
+                    </i>
+                  </a>
+
+                  <Link to='/kubernetes'>
+                    <i
+                      className='bx bx-link'
+                      style={{
+                        backgroundColor: "black",
+                        textAlign: "center",
+                        opacity: "0.6",
+                        fontSize: "19px",
+                      }}
+                    >
+                      Project Details
+                    </i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            className='col-lg-4 col-md-6 portfolio-item filter-web"'
+            data-aos='fade-down'
+          >
+            <div className='portfolio-wrap'>
+              <img src='assets/img/docker.png' className='img-fluid' alt=''></img>
+              <div className='portfolio-info'>
+                <h4
+                  style={{
+                    backgroundColor: "black",
+                    textAlign: "center",
+                    fontSize: "medium",
+                    opacity: "0.7",
+                  }}
+                >
+                  Multi-Container Docker
+                </h4>
+                <p
+                  style={{
+                    backgroundColor: "grey",
+
+                    textAlign: "center",
+                    fontSize: "medium",
+                    opacity: "0.8",
+                  }}
+                >
+                  React , Dockers , AWS EC2 , Redis , Postgres , CI/CD Pipeline, Travis CI
+                </p>
+                <div className='portfolio-links'>
+                  <a
+                    href='https://github.com/mdhanapal1812/multicontainer-docker'
+                    title='App 2'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <i
+                      className='bx bx-plus'
+                      style={{
+                        backgroundColor: "black",
+                        textAlign: "center",
+                        fontSize: "19px",
+                        opacity: "0.6",
+                      }}
+                    >
+                      GitHub Link
+                    </i>
+                  </a>
+
+                  <Link to='/docker'>
+                    <i
+                      className='bx bx-link'
+                      style={{
+                        backgroundColor: "black",
+                        textAlign: "center",
+                        opacity: "0.6",
+                        fontSize: "19px",
+                      }}
+                    >
+                      Project Details
+                    </i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </section>

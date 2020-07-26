@@ -14,6 +14,8 @@ import Apartment from "./Apartment";
 import FeedbackStore from "./FeedbackStore.js";
 import Toolbar from "./Toolbar";
 import Blogging from "./Blogging";
+import Kubernetes from "./Kubernetes";
+import Docker from "./Docker";
 
 class App extends React.Component {
   constructor(props) {
@@ -40,6 +42,8 @@ class App extends React.Component {
             <Route path='/resume' exact component={Resume} />
             <Route path='/about' exact component={About} />
             <Route path='/blogging' exact component={Blogging} />
+            <Route path='/kubernetes' exact component={Kubernetes} />
+            <Route path='/docker' exact component={Docker} />
           </Switch>
         </div>
       </HashRouter>
