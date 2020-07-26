@@ -128,7 +128,7 @@ class Blogging extends React.Component {
                             className='ui block header'
                             style={{ backgroundColor: "#38c9b4", fontSize: "23px" }}
                         >
-                            Customer Feedback Store
+                            Real-Time Blogging
               <Link
                                 to='/portfolio'
                                 className='ui button'
