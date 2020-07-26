@@ -88,17 +88,27 @@ class FeedbackStore extends React.Component {
                 </ul>
 
                 <p>
-                  This application allows user to create a number of surveys for
-                  different products and collect feedback from his/her customers
-                  through email. This is a credit based application as the
-                  number of surveys that the user can create depends on the
-                  number of credits that the user has earned. For earning
-                  credits , the user need to pay a certain amount (5$ for 5
+                  Some business owner uses this service as he/she wants to collect feedback from his customers.
+                  So this application allows the owner to send customers an email requesting for feedback.
+                  This way , the owner can improve his/her business.
+                  This is a credit based application as the
+                  number of surveys that the owner can create depends on the
+                  number of credits that the owner has earned to use this service. For earning
+                  credits , the owner need to pay a certain amount (5$ for 5
                   credits in this application). For Authentication , I have used
                   Google OAuth. For payments I have used Stripe service and for
-                  mailing I have used SendGrid. The surveys were created using
-                  Redux Form and has its own validation checks.
+                  mailing I have used SendGrid. The state managements in this application are managed through Redux.
+                  Form validations of the surveys are also done.
                 </p>
+                <p>
+                  Steps followed in this application :
+                  - User signs up via Google OAuth.
+                  - User creates a new 'survey list' intended for getting feedback for his business product.
+                  - User enters a list of emails to send survey .
+                  - We send email to list of surveys through sendgrid.
+                  - Surveyees click on link in email to provide feedback.
+                  - User can see report of all survey responses.
+</p>
               </div>
             </div>
           </div>

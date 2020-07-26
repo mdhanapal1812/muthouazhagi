@@ -78,6 +78,12 @@ class Blogging extends React.Component {
                                     provision to follow other users , search for interested topics.
                                     A react native app is also being built for this site.
                 </p>
+                                <p>
+                                    AppSync provides a number of benefits when it comes to real-time applications.
+                                    - It has fast Set-up and scales as needed.
+                                    - Realtime subscriptions and offline access.
+                                    - Unified Secured Access.
+                </p>
                             </div>
                         </div>
                     </div>
