@@ -81,77 +81,6 @@ const Portfolio = () => {
           </div>
 
           <div
-            className='col-lg-4 col-md-6 portfolio-item filter-web'
-            data-aos='fade-down'
-          >
-            <div className='portfolio-wrap'>
-              <img
-                src='assets/img/project2.JPG'
-                className='img-fluid'
-                alt=''
-                objectFit='cover'
-                width='200%'
-                height='200%'
-              ></img>
-              <div className='portfolio-info'>
-                <h4
-                  style={{
-                    backgroundColor: "black",
-                    textAlign: "center",
-                    fontSize: "medium",
-                    opacity: "0.6",
-                  }}
-                >
-                  Boston Housing Prediction and Classification
-                </h4>
-                <p
-                  style={{
-                    textAlign: "center",
-                    fontSize: "medium",
-                    backgroundColor: "grey",
-                    opacity: "0.9",
-                  }}
-                >
-                  Python, Data analysis and visualisation
-                </p>
-                <div className='portfolio-links'>
-                  <a
-                    href='https://github.com/mdhanapal1812/Artificial-Intelligence-Project-Report'
-                    title='App 2'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    <i
-                      className='bx bx-plus'
-                      style={{
-                        backgroundColor: "black",
-                        textAlign: "center",
-                        fontSize: "19px",
-                        opacity: "0.6",
-                      }}
-                    >
-                      GitHub Link
-                    </i>
-                  </a>
-                  <Link to='/bostonhousing'>
-                    <i
-                      className='bx bx-link'
-                      style={{
-                        backgroundColor: "black",
-                        textAlign: "center",
-                        fontSize: "19px",
-                        opacity: "0.6",
-                      }}
-                    >
-                      Project Details
-                    </i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
             className='col-lg-4 col-md-6 portfolio-item filter-web"'
             data-aos='fade-down'
           >
@@ -302,58 +231,6 @@ const Portfolio = () => {
                       }}
                     >
                       Project Demo
-                    </i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            className='col-lg-4 col-md-6 portfolio-item filter-card'
-            data-aos='fade-down'
-          >
-            <div className='portfolio-wrap'>
-              <img
-                src='assets/img/aparment.jpg'
-                className='img-fluid'
-                alt=''
-              ></img>
-              <div className='portfolio-info'>
-                <h4
-                  style={{
-                    backgroundColor: "black",
-                    textAlign: "center",
-                    fontSize: "medium",
-                    opacity: "0.7",
-                  }}
-                >
-                  Apartment Management Software
-                </h4>
-                <p
-                  style={{
-                    backgroundColor: "grey",
-
-                    textAlign: "center",
-                    fontSize: "medium",
-                    opacity: "0.8",
-                  }}
-                >
-                  JavaServer Pages, XML , HTML , CSS ,MySQL ,Apache Tomcat
-                  server
-                </p>
-                <div className='portfolio-links'>
-                  <Link to='/apartment'>
-                    <i
-                      className='bx bx-link'
-                      style={{
-                        backgroundColor: "black",
-                        textAlign: "center",
-                        opacity: "0.6",
-                        fontSize: "19px",
-                      }}
-                    >
-                      Project Details
                     </i>
                   </Link>
                 </div>
@@ -577,6 +454,129 @@ const Portfolio = () => {
             </div>
           </div>
 
+          <div
+            className='col-lg-4 col-md-6 portfolio-item filter-web'
+
+          >
+            <div className='portfolio-wrap'>
+              <img
+                src='assets/img/project2.JPG'
+                className='img-fluid'
+                alt=''
+                objectFit='cover'
+                width='200%'
+                height='200%'
+              ></img>
+              <div className='portfolio-info'>
+                <h4
+                  style={{
+                    backgroundColor: "black",
+                    textAlign: "center",
+                    fontSize: "medium",
+                    opacity: "0.6",
+                  }}
+                >
+                  Boston Housing Prediction and Classification
+                </h4>
+                <p
+                  style={{
+                    textAlign: "center",
+                    fontSize: "medium",
+                    backgroundColor: "grey",
+                    opacity: "0.9",
+                  }}
+                >
+                  Python, Data analysis and visualisation
+                </p>
+                <div className='portfolio-links'>
+                  <a
+                    href='https://github.com/mdhanapal1812/Artificial-Intelligence-Project-Report'
+                    title='App 2'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <i
+                      className='bx bx-plus'
+                      style={{
+                        backgroundColor: "black",
+                        textAlign: "center",
+                        fontSize: "19px",
+                        opacity: "0.6",
+                      }}
+                    >
+                      GitHub Link
+                    </i>
+                  </a>
+                  <Link to='/bostonhousing'>
+                    <i
+                      className='bx bx-link'
+                      style={{
+                        backgroundColor: "black",
+                        textAlign: "center",
+                        fontSize: "19px",
+                        opacity: "0.6",
+                      }}
+                    >
+                      Project Details
+                    </i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div
+            className='col-lg-4 col-md-6 portfolio-item filter-card'
+
+          >
+            <div className='portfolio-wrap'>
+              <img
+                src='assets/img/aparment.jpg'
+                className='img-fluid'
+                alt=''
+              ></img>
+              <div className='portfolio-info'>
+                <h4
+                  style={{
+                    backgroundColor: "black",
+                    textAlign: "center",
+                    fontSize: "medium",
+                    opacity: "0.7",
+                  }}
+                >
+                  Apartment Management Software
+                </h4>
+                <p
+                  style={{
+                    backgroundColor: "grey",
+
+                    textAlign: "center",
+                    fontSize: "medium",
+                    opacity: "0.8",
+                  }}
+                >
+                  JavaServer Pages, XML , HTML , CSS ,MySQL ,Apache Tomcat
+                  server
+                </p>
+                <div className='portfolio-links'>
+                  <Link to='/apartment'>
+                    <i
+                      className='bx bx-link'
+                      style={{
+                        backgroundColor: "black",
+                        textAlign: "center",
+                        opacity: "0.6",
+                        fontSize: "19px",
+                      }}
+                    >
+                      Project Details
+                    </i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
