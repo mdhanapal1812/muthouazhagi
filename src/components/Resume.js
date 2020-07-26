@@ -51,7 +51,9 @@ const Resume = () => {
                   Relevant CourseWork : Programming Design Paradigms,
                   Algorithms, Foundations of Artificial Intelligence, Database
                   Management Systems
+                 
                 </p>
+                <a href="https://northeastern-csm.symplicity.com/profiles/muthouazhagi.dhanapal" target='_blank' rel='noopener noreferrer'> Northeastern Profile </a>
               </div>
               <div className='resume-item'>
                 <h4>Pondicherry University, Puduchery, India</h4>
