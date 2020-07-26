@@ -13,6 +13,7 @@ import history from "./History";
 import Apartment from "./Apartment";
 import FeedbackStore from "./FeedbackStore.js";
 import Toolbar from "./Toolbar";
+import Blogging from "./Blogging";
 
 class App extends React.Component {
   constructor(props) {
@@ -38,6 +39,7 @@ class App extends React.Component {
             <Route path='/apartment' exact component={Apartment} />
             <Route path='/resume' exact component={Resume} />
             <Route path='/about' exact component={About} />
+            <Route path='/blogging' exact component={Blogging} />
           </Switch>
         </div>
       </HashRouter>

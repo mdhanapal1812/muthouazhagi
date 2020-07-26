@@ -360,6 +360,90 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
+
+          <div
+            className='col-lg-4 col-md-6 portfolio-item filter-web"'
+            data-aos='fade-down'
+          >
+            <div className='portfolio-wrap'>
+              <img src='assets/img/blogging.jpg' className='img-fluid' alt=''></img>
+              <div className='portfolio-info'>
+                <h4
+                  style={{
+                    backgroundColor: "black",
+                    textAlign: "center",
+                    fontSize: "medium",
+                    opacity: "0.7",
+                  }}
+                >
+                  Real-Time Blogging Site
+                </h4>
+                <p
+                  style={{
+                    backgroundColor: "grey",
+
+                    textAlign: "center",
+                    fontSize: "medium",
+                    opacity: "0.8",
+                  }}
+                >
+                  React.js , DynamoDB , AWS AppSync , Cognito, GraphQL, S3 , AWS Amplify
+                </p>
+                <div className='portfolio-links'>
+                  <a
+                    href='https://github.com/mdhanapal1812/Real-time-blogging-site'
+                    title='App 2'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <i
+                      className='bx bx-plus'
+                      style={{
+                        backgroundColor: "black",
+                        textAlign: "center",
+                        fontSize: "19px",
+                        opacity: "0.6",
+                      }}
+                    >
+                      GitHub Link
+                    </i>
+                  </a>
+                  <a
+                    href='https://blogfinal.dg44t81gagh4q.amplifyapp.com'
+                    title='App 2'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <i
+                      className='bx bx-plus'
+                      style={{
+                        backgroundColor: "black",
+                        textAlign: "center",
+                        fontSize: "19px",
+                        opacity: "0.6",
+                      }}
+                    >
+                      Application Link
+                    </i>
+                  </a>
+                  <Link to='/blogging'>
+                    <i
+                      className='bx bx-link'
+                      style={{
+                        backgroundColor: "black",
+                        textAlign: "center",
+                        opacity: "0.6",
+                        fontSize: "19px",
+                      }}
+                    >
+                      Project Details
+                    </i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
