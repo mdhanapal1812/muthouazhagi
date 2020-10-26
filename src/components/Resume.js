@@ -74,16 +74,55 @@ const Resume = () => {
               <h3 className='resume-title'>Professional Experience</h3>
 
               <div className='resume-item'>
+                <h4>Full Stack Developer Intern </h4>
+                <h5>Bola AI, Massachusetts, US </h5>
+                <p>
+                  <em> Sept 2020 - Present</em>
+                </p>
+                <p>
+                  <em>
+                    Technology Used : Angular, Electron,  MySQL, TypeScript, Azure, Salesforce Development, Google Extensions
+                  </em>
+                </p>
+                <p>
+                  <ul>
+                    <li>
+                    	Developed the user-facing features in Bola dental desktop app using Electron and Angular for AI-Voice assistant for healthcare providers.
+                    </li>
+                    <li>
+                    	Researched and implemented the integration of Salesforce with Bola backend using Change Data Capture , REST API and Apex triggers to manage all orders and account information of Bola AI customers.
+                    </li>
+                    <li>
+                    	Developed the testing framework using Jest and Code Integration with GitHub actions, decreasing bug incidence in production by 70%.
+                    </li>
+                  </ul>
+                </p>
+              </div>
+
+              <div className='resume-item'>
                 <h4>Software Engineer Intern</h4>
                 <h5>Pinwheel.io, Texas, US </h5>
                 <p>
-                  <em>June 2020 - Present</em>
+                  <em>June 2020 - Sept 2020</em>
                 </p>
                 <p>
                   <em>
                     Technology Used : React Native, React, AWS AppSync,
                     DynamoDB, GraphQL, Cognito, AWS Lambda , MQTT protocol
                   </em>
+                </p>
+                <p>
+                  <ul>
+                    <li>
+                    	Implemented the money-saving feature in Pinwheel wallet App using React Native, Firebase.
+                    </li>
+                    <li>
+                    Developed a full-stack real-time messaging and notification service using MQTT protocol , with mosquitto broker installed on AWS EC2. Used Apollo server, React, DynamoDB, AWS Lambda.
+                    </li>
+                    <li>
+                    	Improved the user interface of Pinwheel’s caregiver admin portal using React , Sass. 
+                    </li>
+                  </ul>
                 </p>
               </div>
 
