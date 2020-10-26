@@ -17,8 +17,8 @@ const About = () => {
             the opportunity to work on a wide variety of interesting projects on
             a daily basis. The work I provide is of highest quality which earned
             me "Excellent Performer of the Year" consecutively during my tenure
-            at work. I am currently doing my internship as a Software Engineer at Pinwheel.io.
-            This place has helped me learn trending technologies along with helping me discover my ownership skills.
+            at work. I did my summer 2020 internship as a Software Engineer at Pinwheel.io.
+            This place has helped me learn trending technologies along with helping me discover my ownership skills. I am currently doing my Fall 2020 co-op as a Full Stack Developer at Bola AI technologies.
             Apart from job , I have always been keen on exploring and
             learning trending technologies in the software industry.
           </p>
