@@ -12,8 +12,7 @@ const Resume = () => {
           <div className='section-title' style={{ height: "100%" }}>
             <h2 style={{ marginTop: "64px" }}>Resume</h2>
             <p>
-              Available for Co-Op / Internship opportunities from : Sep 2020 to
-              Jan 2021
+              Available for summer 2021 internship opportunities from : April 2021 to Aug 2021.
             </p>
           </div>
 

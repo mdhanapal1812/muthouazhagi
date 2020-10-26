@@ -45,8 +45,7 @@ const About = () => {
                 uses top-notch technologies.
               </p>
               <h5>
-                I am currently seeking Co-Op / Internship opportunities for Fall
-                2020/Spring 2021 in a creative and innovative environment . Would like to
+                I am currently seeking Internship opportunities for summer 2021 in a creative and innovative environment . Would like to
                 hire me ? Please <Link to='/contact'> contact</Link> me !
               </h5>
             </p>
