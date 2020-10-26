@@ -299,6 +299,18 @@ const Resume = () => {
                     Hooks, Node.js, RESTful API
                   </i>
                 </span>
+                <span className='skill' style={{ fontSize: "130%" }}>
+                  <i
+                    className='val'
+                    style={{
+                      color: "#34b7a7",
+                      background: "#effbf9",
+                      padding: "5px 15px",
+                    }}
+                  >
+                    Angular , TypeScript, 
+                  </i>
+                </span>
 
                 <span className='skill' style={{ fontSize: "130%" }}>
                   <i
