@@ -69,6 +69,14 @@ const Resume = () => {
                   Development
                 </p>
               </div>
+              <div className='resume-item'>
+                <h4>Academic Projects</h4>
+                <h5>
+                  Please visit <Link to='/portfolio'> Projects Section </Link>{" "}
+                  for detailed description
+                </h5>
+              </div>
+
             </div>
             <div className='col-lg-6'>
               <h3 className='resume-title'>Professional Experience</h3>
@@ -165,13 +173,6 @@ const Resume = () => {
                     </li>
                   </ul>
                 </p>
-              </div>
-              <div className='resume-item'>
-                <h4>Academic Projects</h4>
-                <h5>
-                  Please visit <Link to='/portfolio'> Projects Section </Link>{" "}
-                  for detailed description
-                </h5>
               </div>
             </div>
           </div>
