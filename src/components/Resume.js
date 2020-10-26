@@ -308,7 +308,7 @@ const Resume = () => {
                       padding: "5px 15px",
                     }}
                   >
-                    Angular , TypeScript, 
+                    Angular , TypeScript
                   </i>
                 </span>
 
