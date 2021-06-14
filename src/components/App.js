@@ -16,6 +16,7 @@ import Toolbar from "./Toolbar";
 import Blogging from "./Blogging";
 import Kubernetes from "./Kubernetes";
 import Docker from "./Docker";
+import CoveyTown from "./CoveyTown.js";
 
 class App extends React.Component {
   constructor(props) {
@@ -44,6 +45,7 @@ class App extends React.Component {
             <Route path='/blogging' exact component={Blogging} />
             <Route path='/kubernetes' exact component={Kubernetes} />
             <Route path='/docker' exact component={Docker} />
+            <Route path='/coveyTown' exact component={CoveyTown} />
           </Switch>
         </div>
       </HashRouter>

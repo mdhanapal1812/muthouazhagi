@@ -524,7 +524,88 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
+          <div
+            className='col-lg-4 col-md-6 portfolio-item filter-web"'
+            data-aos='fade-down'
+          >
+            <div className='portfolio-wrap'>
+              <img src='assets/img/coveyTown.JPG' className='img-fluid' alt=''></img>
+              <div className='portfolio-info'>
+                <h4
+                  style={{
+                    backgroundColor: "black",
+                    textAlign: "center",
+                    fontSize: "medium",
+                    opacity: "0.7",
+                  }}
+                >
+                  Covey Town Friends Network
+                </h4>
+                <p
+                  style={{
+                    backgroundColor: "grey",
 
+                    textAlign: "center",
+                    fontSize: "medium",
+                    opacity: "0.8",
+                  }}
+                >
+                  React , TypeScript, GraphQL, Apollo Server, MongoDB
+                </p>
+                <div className='portfolio-links'>
+                  <a
+                    href='https://github.com/trena-dhingra/covey.town'
+                    title='App 2'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <i
+                      className='bx bx-plus'
+                      style={{
+                        backgroundColor: "black",
+                        textAlign: "center",
+                        fontSize: "19px",
+                        opacity: "0.6",
+                      }}
+                    >
+                      GitHub Link
+                    </i>
+                  </a>
+                  <a
+                    href='https://hardcore-sinoussi-aeac49.netlify.app/'
+                    title='App 2'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <i
+                      className='bx bx-plus'
+                      style={{
+                        backgroundColor: "black",
+                        textAlign: "center",
+                        fontSize: "19px",
+                        opacity: "0.6",
+                      }}
+                    >
+                      Application Link
+                    </i>
+                  </a>
+                  <Link to='/CoveyTown'>
+                    <i
+                      className='bx bx-link'
+                      style={{
+                        backgroundColor: "black",
+                        textAlign: "center",
+                        opacity: "0.6",
+                        fontSize: "19px",
+                      }}
+                    >
+                      Project Details
+                    </i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <div
             className='col-lg-4 col-md-6 portfolio-item filter-card'

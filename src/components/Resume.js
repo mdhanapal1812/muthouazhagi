@@ -12,7 +12,7 @@ const Resume = () => {
           <div className='section-title' style={{ height: "100%" }}>
             <h2 style={{ marginTop: "64px" }}>Resume</h2>
             <p>
-              Available for summer 2021 internship opportunities from : April 2021 to Aug 2021.
+              Available for Full-time opportunities from : Jan 2022.
             </p>
           </div>
 
@@ -29,7 +29,7 @@ const Resume = () => {
                 </p>
                 <p>
                   <ul>
-                    <li>Apt 3 , 1574 Tremont Street, Boston MA</li>
+                    <li>24C, Smith street, Boston, MA - 02120</li>
                     <li>(857) 269-8359</li>
                     <li>dhanapal.m@northeastern.edu</li>
                   </ul>
@@ -44,13 +44,12 @@ const Resume = () => {
                   <em>2019 - 2021</em>
                 </p>
                 <p>
-                  <em>CGPA : 3.778/4.0</em>
+                  <em>CGPA : 3.8/4.0</em>
                 </p>
                 <p>
                   Relevant CourseWork : Programming Design Paradigms,
                   Algorithms, Foundations of Artificial Intelligence, Database
-                  Management Systems
-                 
+                  Management Systems, Foundations of Software Engineering, Web Development
                 </p>
                 <a href="https://northeastern-csm.symplicity.com/profiles/muthouazhagi.dhanapal" target='_blank' rel='noopener noreferrer'> Northeastern Profile </a>
               </div>
@@ -79,9 +78,28 @@ const Resume = () => {
             </div>
             <div className='col-lg-6'>
               <h3 className='resume-title'>Professional Experience</h3>
+              <div className='resume-item'>
+                <h4>Software Engineer Intern </h4>
+                <h5>Bola AI, Massachusetts, US </h5>
+                <p>
+                  <em> May 2021 - Present</em>
+                </p>
+                <p>
+                  <em>
+                    Technology Used : Angular, Electron,  MySQL, TypeScript, Azure, Salesforce Development, Google Extensions
+                  </em>
+                </p>
+                <p>
+                  <ul>
+                    <li>
+                      Responsible for leading the development of Bola Extensions for Curve Dental Software. 
+                    </li>
+                  </ul>
+                </p>
+              </div>
 
               <div className='resume-item'>
-                <h4>Full Stack Developer Intern </h4>
+                <h4>Full Stack Developer Co-op </h4>
                 <h5>Bola AI, Massachusetts, US </h5>
                 <p>
                   <em> Sept 2020 - Present</em>
